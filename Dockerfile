@@ -12,6 +12,7 @@ EXPOSE 5000
 
 # Indicate where uwsgi.ini lives
 ENV UWSGI_INI uwsgi.ini
+ENV name kapildev
 
 # Tell nginx where static files live. Typically, developers place static files for
 # multiple apps in a shared folder, but for the purposes here we can use the one
